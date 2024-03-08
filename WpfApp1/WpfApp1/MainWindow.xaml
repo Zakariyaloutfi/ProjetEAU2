@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gestion des Réserves d'Eau" Height="450" Width="800">
+    <StackPanel Margin="10">
+        <Button x:Name="btnRecupererReserves" Content="Récupérer les Réserves d'Eau" Click="BtnRecupererReserves_Click" Margin="5"/>
+        <TextBox x:Name="txtCodePostal" PlaceholderText="Code Postal" Margin="5"/>
+        <Button x:Name="btnRecupererParCodePostal" Content="Récupérer par Code Postal" Click="BtnRecupererParCodePostal_Click" Margin="5"/>
+        <TextBox x:Name="txtNom" PlaceholderText="Nom de la Réserve" Margin="5"/>
+        <TextBox x:Name="txtVolumeEau" PlaceholderText="Volume d'Eau" Margin="5"/>
+        <Button x:Name="btnCreerReserve" Content="Créer Réserve" Click="BtnCreerReserve_Click" Margin="5"/>
+        <TextBlock x:Name="txtResultats" Margin="5"/>
+    </StackPanel>
+</Window>
